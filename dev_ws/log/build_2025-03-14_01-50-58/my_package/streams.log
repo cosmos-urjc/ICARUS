@@ -1,0 +1,37 @@
+[0.565s] Invoking command in '/home/rura/ICARUS/dev_ws/src/my_package': PYTHONPATH=/home/rura/ICARUS/dev_ws/build/my_package/prefix_override:/home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rura/ICARUS/dev_ws/build/my_package/build install --record /home/rura/ICARUS/dev_ws/build/my_package/install.log --single-version-externally-managed install_data
+[0.721s] running egg_info
+[0.722s] creating ../../build/my_package/my_package.egg-info
+[0.722s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[0.723s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.723s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[0.723s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[0.723s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[0.723s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.723s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.724s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.724s] running build
+[0.724s] running build_py
+[0.724s] creating /home/rura/ICARUS/dev_ws/build/my_package/build
+[0.724s] creating /home/rura/ICARUS/dev_ws/build/my_package/build/lib
+[0.724s] creating /home/rura/ICARUS/dev_ws/build/my_package/build/lib/my_package
+[0.724s] copying my_package/__init__.py -> /home/rura/ICARUS/dev_ws/build/my_package/build/lib/my_package
+[0.724s] copying my_package/my_node.py -> /home/rura/ICARUS/dev_ws/build/my_package/build/lib/my_package
+[0.724s] running install
+[0.724s] running install_lib
+[0.725s] creating /home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.725s] copying /home/rura/ICARUS/dev_ws/build/my_package/build/lib/my_package/__init__.py -> /home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.725s] copying /home/rura/ICARUS/dev_ws/build/my_package/build/lib/my_package/my_node.py -> /home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.725s] byte-compiling /home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[0.725s] byte-compiling /home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages/my_package/my_node.py to my_node.cpython-310.pyc
+[0.728s] running install_data
+[0.728s] creating /home/rura/ICARUS/dev_ws/install/my_package/share/ament_index
+[0.728s] creating /home/rura/ICARUS/dev_ws/install/my_package/share/ament_index/resource_index
+[0.728s] creating /home/rura/ICARUS/dev_ws/install/my_package/share/ament_index/resource_index/packages
+[0.728s] copying resource/my_package -> /home/rura/ICARUS/dev_ws/install/my_package/share/ament_index/resource_index/packages
+[0.728s] copying package.xml -> /home/rura/ICARUS/dev_ws/install/my_package/share/my_package
+[0.728s] running install_egg_info
+[0.728s] Copying ../../build/my_package/my_package.egg-info to /home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.730s] running install_scripts
+[0.757s] Installing my_node script to /home/rura/ICARUS/dev_ws/install/my_package/lib/my_package
+[0.757s] writing list of installed files to '/home/rura/ICARUS/dev_ws/build/my_package/install.log'
+[0.791s] Invoked command in '/home/rura/ICARUS/dev_ws/src/my_package' returned '0': PYTHONPATH=/home/rura/ICARUS/dev_ws/build/my_package/prefix_override:/home/rura/ICARUS/dev_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /home/rura/ICARUS/dev_ws/build/my_package/build install --record /home/rura/ICARUS/dev_ws/build/my_package/install.log --single-version-externally-managed install_data
