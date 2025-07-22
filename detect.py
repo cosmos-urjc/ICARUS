@@ -133,7 +133,7 @@ def main():
     # Carga el modelo directamente en GPU (device '0')
     #model = YOLO("yolo11n.pt")
     #model = YOLO("runs/drone/yolo11n_full/weights/best.pt")
-    model = YOLO("runs/test/yolo11n_quick_dataset_full/weights/best.pt")
+    model = YOLO("drone/yolo11n_full/weights/best.pt")
     model.to(device)
     model.fuse()
 
@@ -169,6 +169,18 @@ def main():
     print(f"Device used: {device}")
     print(f"Total frames with UAV detections: {total_detected_frames}")
     print(f"Average confidence of all UAV detections: {avg_conf:.2f}")
+
+    # ------------------------------------
+
+    model = YOLO('yolov8n.pt')           # nano weights (~5 MB)
+
+    if SOURCE.isdigit():
+        cap = cv2.VideoCapture(int(SOURCE), cv2.CAP_V4L2)
+    else:
+        cap = cv2.VideoCapture(SOURCE)
+
+    if not cap.isOpened():
+        raise SystemExit(f"❌  Could not open {SOURCE}")
 
 if __name__ == "__main__":
     main()
